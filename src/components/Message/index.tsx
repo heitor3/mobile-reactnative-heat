@@ -9,7 +9,7 @@ export function Message() {
   return (
     <View style={styles.container}>
       <Text style={styles.message}>
-
+        Texto da mensagem
       </Text>
 
       <View>
