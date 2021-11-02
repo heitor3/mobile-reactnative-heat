@@ -36,7 +36,7 @@ export function Button({
       {...rest}
     >
       {
-        isLoading ? <ActivityIndicator /> :
+        isLoading ? <ActivityIndicator color={color} /> :
           <>
             <AntDesign name={icon} size={24} style={styles.icon} />
             <Text style={[styles.title, { color }]}>
